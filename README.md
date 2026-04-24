@@ -4,6 +4,7 @@ A CSP Lua app for Assetto Corsa that reminds you to hold and release the clutch 
 
 - Displays **"CLUTCH!"** with a pulsing overlay in the last 10 seconds before lights out
 - Displays **"CLUTCH OUT!"** with a strobing flash and beep the moment lights go out
+- **Wheelspin detector** — shows LIFT!, MORE THROTTLE! or PERFECT LAUNCH! after the start
 - Works with the **[OSR startLights server script](https://github.com/tetematete/OSRLUASNIPPETS)** or standalone
 - Volume control with test button in the settings window
 
@@ -11,9 +12,9 @@ A CSP Lua app for Assetto Corsa that reminds you to hold and release the clutch 
 
 ## Preview
 
-| Holding clutch | Lights out |
-|---|---|
-| Purple pulsing overlay + "CLUTCH!" | Red/orange strobe + "CLUTCH OUT!" + beep |
+| Holding clutch | Lights out | After launch |
+|---|---|---|
+| Purple pulsing overlay + "CLUTCH!" | Red/orange strobe + "CLUTCH OUT!" + beep | Wheelspin feedback at the bottom |
 
 ---
 
@@ -26,8 +27,8 @@ A CSP Lua app for Assetto Corsa that reminds you to hold and release the clutch 
 
 ## Installation
 
-1. Download or clone this repo
-2. Copy the `ClutchScreamer` folder into:
+1. Download the latest release zip
+2. Extract and copy the `ClutchScreamer` folder into:
    ```
    steamapps/common/assettocorsa/apps/lua/
    ```
@@ -56,6 +57,18 @@ Open the **ClutchScreamer Settings** window from the app taskbar to:
 - Adjust beep volume in 10% steps
 - Test the beep sound
 - See whether the app is running in OSR or Standalone mode
+
+---
+
+## Wheelspin Detector
+
+For 6 seconds after lights out, ClutchScreamer monitors your rear wheel slip ratio and shows one of three messages at the bottom of the overlay:
+
+| Message | Meaning |
+|---|---|
+| 🔴 **LIFT!** | Too much wheelspin — ease off the throttle |
+| 🔵 **MORE THROTTLE!** | Too much grip — you can push harder |
+| 🟢 **PERFECT LAUNCH!** | Slip ratio is in the sweet spot |
 
 ---
 
