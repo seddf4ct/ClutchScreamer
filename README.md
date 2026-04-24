@@ -14,8 +14,6 @@ A CSP Lua app for Assetto Corsa that reminds you to hold and release the clutch 
 
 [![ClutchScreamer Demo](https://img.youtube.com/vi/b6am_CKiFRY/maxresdefault.jpg)](https://www.youtube.com/watch?v=b6am_CKiFRY)
 
-> Replace `YOUR_VIDEO_ID` with your YouTube video ID after uploading
-
 ---
 
 ## Preview
