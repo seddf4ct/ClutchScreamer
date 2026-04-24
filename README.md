@@ -10,6 +10,14 @@ A CSP Lua app for Assetto Corsa that reminds you to hold and release the clutch 
 
 ---
 
+## Demo
+
+[![ClutchScreamer Demo](https://img.youtube.com/vi/b6am_CKiFRY/maxresdefault.jpg)](https://www.youtube.com/watch?v=b6am_CKiFRY)
+
+> Replace `YOUR_VIDEO_ID` with your YouTube video ID after uploading
+
+---
+
 ## Preview
 
 | Holding clutch | Lights out | After launch |
@@ -62,7 +70,7 @@ Open the **ClutchScreamer Settings** window from the app taskbar to:
 
 ## Wheelspin Detector
 
-For 6 seconds after lights out, ClutchScreamer monitors your rear wheel slip ratio and shows one of three messages at the bottom of the overlay:
+For 6 seconds after lights out, ClutchScreamer monitors your wheel slip ratio and shows one of three messages at the bottom of the overlay:
 
 | Message | Meaning |
 |---|---|
